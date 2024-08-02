@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(./imgs/1225154-fundo-preto-baixo-poli-geometrico-geometrico-vetor.jpg);
+    backdrop-filter: blur(8px);
+    min-height: 100%;
+}
+
+.input-button {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    padding: 80px;
+    position: relative;
+}
+
+.texarea {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    padding: 10px 14px;
+    font-size: 15px;
+    color: rgb(211, 209, 209);
+    font-weight: 200;
+    border: 2px solid rgb(211, 209, 209);
+}
+
+.botao-cadastrar {
+    position: absolute;
+    top: 87%;
+    right: 35%;
+    background-color: transparent;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: rgb(211, 209, 209);
+    font-size: 15px;
+    cursor: pointer;
+    transition: .4s;
+    border: 2px solid rgb(211, 209, 209);
+}
+
+.botao-cadastrar:hover {
+    background-color: rgb(211, 209, 209);
+    color: black;
+    border: 3px solid rgb(211, 209, 209);
+}
+
+.botao-cadastrar:active {
+    background-color: rgb(40, 40, 40);
+    color: rgb(211, 209, 209);
+    transform: scale(1.05);
+}
+
+.container_img__meme {
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(8px 10px 0px rgb(104, 184, 104));
+}
+
+.lista__cadastros {
+    width: 100%;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.cadastrosAdd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 14px;
+    background-color: rgb(211, 209, 209);
+    color: rgb(60, 60, 60);
+    border: 2px solid rgb(211, 209, 209);
+    border-radius: 3px;
+    width: 20%;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.cadastrosAdd:hover {
+    background-color: transparent;
+    color: rgb(211, 209, 209);
+    border: 2px solid grey;
+}
+
+.cadastrosAdd:hover img{
+    opacity: 1; 
+}
+
+img {
+    width: 25px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
