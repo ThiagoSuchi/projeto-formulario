@@ -54,16 +54,10 @@ body {
     border: 3px solid rgb(211, 209, 209);
 }
 
-.botao-cadastrar:active {
+.botao-cadastrar {
     background-color: rgb(40, 40, 40);
     color: rgb(211, 209, 209);
     transform: scale(1.05);
-}
-
-.container_img__meme {
-    display: flex;
-    justify-content: center;
-    filter: drop-shadow(8px 10px 0px rgb(104, 184, 104));
 }
 
 .lista__cadastros {
@@ -107,3 +101,19 @@ img {
 img:hover {
     transform: scale(1.05);
 }
+
+/* .informacoes-editar {
+    display: grid;
+    justify-content: right;
+    margin-right: 300px;
+    margin-top: -130px;
+}
+
+.informacoes-editar > input {
+    width: 500px;
+}
+
+.informacoes-editar > button {
+    margin-top: 100px;
+} */
+
